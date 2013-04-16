@@ -1,0 +1,23 @@
+<!-- Module Include File -->
+
+<!-- Types -->
+<types>
+	<!-- Type Example: <type name="MyClass" class="com.acme.BMyClass"/> -->
+
+	<!-- Enums Folder -->
+	<type name="LonTraneAlarmMessage" class="com.trane.enums.BLonTraneAlarmMessage" />
+
+	<!-- Field Editors Folder -->
+	<type name="CheckBoxFE" class="com.trane.fieldEditors.BCheckBoxFE" />
+
+	<!-- Util Folder -->
+	<type name="AlarmMessageToTIS" class="com.trane.util.BAlarmMessageToTIS" />
+  	<type name="AlarmSetupView" class="com.trane.util.BAlarmSetupView">
+		<agent>
+			<on type="traneAlarmRouting:AlarmMessageToTIS" />
+		</agent> 
+	</type>
+
+
+
+</types>

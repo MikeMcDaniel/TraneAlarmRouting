@@ -1,0 +1,41 @@
+<!-- Module Build File -->
+
+<module
+  name = "traneAlarmRouting"
+  bajaVersion = "0" 
+  vendorVersion = "1.2.00"
+  preferredSymbol = "tis"
+  description = "Objects to use for routing of alarms to TIS"
+  vendor = "Trane Development"
+
+>
+
+  <!-- Dependencies -->
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="alarm" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="bajaui" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="control" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="converters" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="driver" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="email" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="fonts" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="fox" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="gx" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="history" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="icons" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="icons2" vendor="Lynxspring" vendorVersion="3.0" />
+  <dependency name="kitControl" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="lonworks" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="platform" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="report" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="wbutil" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="web" vendor="Tridium" vendorVersion="3.7" />
+  <dependency name="vykonPro" vendor="vykon" vendorVersion="3.6.31" />
+  <dependency name="workbench" vendor="Tridium" vendorVersion="3.7" />
+
+  <!-- Packages -->
+  <package name="com.trane.util" />
+  <package name="com.trane.fieldEditors" />
+  <package name="com.trane.enums" /> 
+
+</module>

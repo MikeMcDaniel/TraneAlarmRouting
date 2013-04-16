@@ -1,0 +1,18 @@
+<!-- Module Include File -->
+
+<!-- Types -->
+<types>
+  <!-- Type Example:
+  <type name="MyClass" class="com.acme.BMyClass"/>
+  -->
+  
+  <!-- Email Folder -->
+
+  
+  <!-- Util Folder -->
+  <type name="AlarmMessageToTIS" class="com.trane.util.BAlarmMessageToTIS"/>
+  <type name="AlarmSetupView" class="com.trane.util.BAlarmSetupView">
+		<agent><on type="traneAlarmRouting:AlarmMessageToTIS"/></agent>
+  </type>	
+  <type name="LonTraneAlarmMessage" class="com.trane.enums.BLonTraneAlarmMessage"/>
+</types>
